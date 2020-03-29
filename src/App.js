@@ -11,7 +11,7 @@ import Music from './components/Music/Music';
 import Setings from './components/Setings/Setings';
 
 import DialogsContainer from './components/Dialogs/DialogsContainer';
-import UsersContainer from './components/Users/UserssContainert';
+import UsersContainer from './components/Users/UsersContainer';
 
 
 
