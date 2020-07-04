@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/xoxol4uk/demo-social/static/css/main.4a9a5a07.chunk.css",
+    "main.js": "/xoxol4uk/demo-social/static/js/main.4d1e6895.chunk.js",
+    "main.js.map": "/xoxol4uk/demo-social/static/js/main.4d1e6895.chunk.js.map",
+    "runtime-main.js": "/xoxol4uk/demo-social/static/js/runtime-main.15c3e455.js",
+    "runtime-main.js.map": "/xoxol4uk/demo-social/static/js/runtime-main.15c3e455.js.map",
+    "static/js/2.9a8fd2cf.chunk.js": "/xoxol4uk/demo-social/static/js/2.9a8fd2cf.chunk.js",
+    "static/js/2.9a8fd2cf.chunk.js.map": "/xoxol4uk/demo-social/static/js/2.9a8fd2cf.chunk.js.map",
+    "static/css/3.29c17c82.chunk.css": "/xoxol4uk/demo-social/static/css/3.29c17c82.chunk.css",
+    "static/js/3.e6cf408e.chunk.js": "/xoxol4uk/demo-social/static/js/3.e6cf408e.chunk.js",
+    "static/js/3.e6cf408e.chunk.js.map": "/xoxol4uk/demo-social/static/js/3.e6cf408e.chunk.js.map",
+    "static/css/4.98300a8b.chunk.css": "/xoxol4uk/demo-social/static/css/4.98300a8b.chunk.css",
+    "static/js/4.817881db.chunk.js": "/xoxol4uk/demo-social/static/js/4.817881db.chunk.js",
+    "static/js/4.817881db.chunk.js.map": "/xoxol4uk/demo-social/static/js/4.817881db.chunk.js.map",
+    "index.html": "/xoxol4uk/demo-social/index.html",
+    "precache-manifest.801c586de7009d195f231bcf08ed3134.js": "/xoxol4uk/demo-social/precache-manifest.801c586de7009d195f231bcf08ed3134.js",
+    "service-worker.js": "/xoxol4uk/demo-social/service-worker.js",
+    "static/css/3.29c17c82.chunk.css.map": "/xoxol4uk/demo-social/static/css/3.29c17c82.chunk.css.map",
+    "static/css/4.98300a8b.chunk.css.map": "/xoxol4uk/demo-social/static/css/4.98300a8b.chunk.css.map",
+    "static/css/main.4a9a5a07.chunk.css.map": "/xoxol4uk/demo-social/static/css/main.4a9a5a07.chunk.css.map",
+    "static/js/2.9a8fd2cf.chunk.js.LICENSE.txt": "/xoxol4uk/demo-social/static/js/2.9a8fd2cf.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/xoxol4uk/demo-social/static/media/logo.ee7cd8ed.svg",
+    "static/media/preloader.svg": "/xoxol4uk/demo-social/static/media/preloader.ae85b320.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.15c3e455.js",
+    "static/js/2.9a8fd2cf.chunk.js",
+    "static/css/main.4a9a5a07.chunk.css",
+    "static/js/main.4d1e6895.chunk.js"
+  ]
+}
