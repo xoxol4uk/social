@@ -9,3 +9,11 @@
 .bigAvatar img {
 	width: 100%;
 }
+
+.mainPhoto {
+	max-width: 200px;
+}
+
+.contact {
+	padding-left: 10px;
+}

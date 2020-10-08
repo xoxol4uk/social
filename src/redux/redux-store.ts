@@ -19,10 +19,16 @@ let reducers = combineReducers({
 
 }); //объединяем редьюсеры
 
+type RootReducerType = typeof reducers; // (globalstate: AppStateType) => AppStateType
+export type AppStateType = ReturnType<RootReducerType>
+
+let state: AppStateType;
+
+// @ts-ignore
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 const store = createStore(reducers, composeEnhancers(applyMiddleware(thunkMiddleware)));
 
-
-window.store = store;
+// @ts-ignore
+window.__store__ = store;
 
 export default store;

@@ -12,13 +12,13 @@ const ProfileStatusWithHooks = (props) => {
 
   let [editMode, setEditMode] = useState(false); //деструктивное присваивание для более короткой записи
   let [status, setStatus] = useState(props.status); //при работе с хуками приходится для каждого свойства стейта так делать
-  
-  useEffect( () => {
+
+  useEffect(() => {
     setStatus(props.status)
   }, [props.status])
-  
-  
-  
+
+
+
   const activateEditMode = () => {
     setEditMode(true);
   }
@@ -28,27 +28,27 @@ const ProfileStatusWithHooks = (props) => {
     props.updateStatus(status);
   }
 
-  const onStatusChange = (e) =>{
+  const onStatusChange = (e) => {
     setStatus(e.currentTarget.value);
   }
 
-    return  (
-          <div>
-            { !editMode &&
-              <div>
-              <span onDoubleClick={activateEditMode}>{props.status || "------"}</span>
-              </div>
-            }
-            { editMode &&
-              <div>
-                  <input onChange={onStatusChange}
-                     autoFocus={true} 
-                     onBlur={ deactivateEditMode } 
-                     value={status} />
-              </div>
-            }
+  return (
+    <div>
+      {!editMode &&
+        <div>
+          <b>Status</b>:<span onDoubleClick={activateEditMode}>{props.status || "------"}</span>
         </div>
-      )
+      }
+      {editMode &&
+        <div>
+          <input onChange={onStatusChange}
+            autoFocus={true}
+            onBlur={deactivateEditMode}
+            value={status} />
+        </div>
+      }
+    </div>
+  )
 }
 
 export default ProfileStatusWithHooks;
